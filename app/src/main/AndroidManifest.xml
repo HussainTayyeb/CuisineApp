@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tayyebhussain.foodtrackingapp">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity android:name=".register" />
+        <activity android:name=".personalData" />
+        <activity android:name=".forgotPassword" />
+        <activity android:name=".StartPage" />
+        <activity android:name=".addFood" />
+        <activity android:name=".addDrink" />
+        <activity android:name=".CusineChoice" />
+        <activity android:name=".asia_cusine" />
+        <activity android:name=".ita_cusine" />
+        <activity android:name=".amerik_cusine" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".mex_cusine" />
+        <activity android:name=".ind_cusine" />
+        <activity android:name=".ReviewFrance" />
+        <activity android:name=".france_cusine" />
+        <activity android:name=".ReviewItalian" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".FrGps"
+            android:label="@string/title_activity_fr_gps" />
+        <activity android:name=".ReviewAsian" />
+        <activity android:name=".ReviewAmerika" />
+        <activity android:name=".ReviewMexic" />
+        <activity android:name=".ReviewIndian" />
+        <activity
+            android:name=".AmerikGps"
+            android:label="@string/title_activity_amerik_gps" />
+        <activity
+            android:name=".ItaGps"
+            android:label="@string/title_activity_ita_gps" />
+        <activity
+            android:name=".IndGps"
+            android:label="@string/title_activity_ind_gps" />
+        <activity
+            android:name=".AsiaGps"
+            android:label="@string/title_activity_asia_gps" />
+        <activity
+            android:name=".MexGps"
+            android:label="@string/title_activity_mex_gps"></activity>
+    </application>
+
+</manifest>

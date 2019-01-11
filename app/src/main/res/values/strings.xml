@@ -1,0 +1,84 @@
+<resources>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+    INSERT KEY HERE DELETED FOR SECURITY PURPOSES
+</string>
+
+    <string name="app_name">FoodTrackingApp</string>
+    <string name="login">Login</string>
+    <string name="signUp">SignUp</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="frgtPass">Forgotten password?</string>
+    <string name="cnfrmPass">Confrim Password</string>
+    <string name="email">E-Mail</string>
+    <string name="sbmt">Submit</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="age">Age</string>
+    <string name="height">Height in cm</string>
+    <string name="weight">Weight in kg</string>
+    <string name="send">Send</string>
+    <string name="addFood">Add food</string>
+    <string name="addDrink">Add drink</string>
+
+    <string name="gender_prompt">gender</string>
+
+
+    <string-array name="gender">
+        <item>Female</item>
+        <item>Male</item>
+
+    </string-array>
+
+
+    <string-array name="activityLevel">
+        <item>Sitting/lying all day </item>
+        <item>Seated work, no exercise</item>
+        <item>Seated word, light exercise</item>
+        <item>Moderately physical work, no exercise</item>
+        <item>Moderately physical work, light exercise</item>
+        <item>Moderately physical work, heavy exercise</item>
+        <item>Heavy work, heavy exercise</item>
+        <item>Above avarage physical work/exercise</item>
+    </string-array>
+
+
+    <string-array name="foodPractise">
+        <item>Vegetarian</item>
+        <item>Vegan</item>
+        <item>Other</item>
+
+    </string-array>
+    <string name="title_activity_start_page">StartPage</string>
+    <string name="favCus">Which cusine is your favorite?</string>
+
+    <string name="top1">TOP 1</string>
+    <string name="review"> review </string>
+    <string name="fra"> Französische Küche </string>
+    <string name="it">  Italienische Küche </string>
+    <string name="asia"> Asiatische Küche </string>
+    <string name="amerik"> Amerikanische Küche </string>
+    <string name="mex"> Mexikanische Küche </string>
+    <string name="ind"> Indische Küche </string>
+    <string name="amerikDesc"> Die Küche der Vereinigten Staaten umfasst regional unterschiedliche
+        Küchen des circa 9,6 Millionen Quadratkilometer großen Landes. Sie entwickelte
+        sich vor allem durch die Einflüsse der Einwanderer wie auch durch die geographisch-klimatischen
+        Gegebenheiten in bestimmten Landesteilen.</string>
+    <string name="asiaDesc"> Mit asiatischer Küche wird allgemein die Speisenzubereitung in einer der vielen asiatischen Landestraditionen bezeichnet. In der Regel sind damit
+        die Küchen der Länder von Südostasien und Ostasien gemeint. </string>
+    <string name="frenchDesc"> Die französische Küche ist die Nationalküche Frankreichs. Sie galt seit der frühen Neuzeit als sehr einflussreiche Landesküche Europas. Die sogenannte haute cuisine entstand
+        im 19. Jahrhundert und entwickelte sich zur französischen Nationalküche. </string>
+    <string name="itaDesc"> Als Italienische Küche wird die Gesamtheit der spezifisch italienischen Gerichte bezeichnet. Sie besteht aus einer Vielzahl von regionalen Küchen, und bedingt durch die geografische Lage und lange
+        Kochtradition kann sie auf zahlreiche Zutaten und Spezialitäten zurückgreifen</string>
+    <string name="mexDesc"> Die mexikanische Küche zeichnet sich durch die Synthese von vor allem präkolumbischen und spanischen, aber auch französischen, arabischen und karibischen Traditionen aus. Mais, Bohnen,
+        (milde) Chilis, Früchte und bestimmte Gemüsesorten spielen eine dominante Rolle</string>
+    <string name="title_activity_france__gps">Map</string>
+    <string name="title_activity_fr_gps">Map</string>
+    <string name="title_activity_amerik_gps">Map</string>
+    <string name="title_activity_ita_gps">Map</string>
+    <string name="title_activity_ind_gps">Map</string>
+    <string name="title_activity_asia_gps">Map</string>
+    <string name="title_activity_mex_gps">Map</string>
+
+
+</resources>

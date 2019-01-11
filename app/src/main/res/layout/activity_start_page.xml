@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools"
+
+        >
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/FloatingActionMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+
+
+        android:layout_marginBottom="16dp"
+        app:fab_addButtonColorNormal="#3c8782"
+        app:fab_addButtonColorPressed="#3c8782"
+        app:fab_labelsPosition="left"
+        fab:menu_colorRipple="#3c8782"
+        fab:menu_fab_label="Hallo1"
+        fab:menu_showShadow="true">
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionItem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:onClick="fabDrink"
+            android:text="@string/addDrink"
+            app:fab_colorNormal="#7accc9"
+            app:fab_icon="@drawable/drink8"
+
+
+            app:fab_title="@string/addDrink"
+            fab:fab_label="1 Menu button"
+            fab:fab_size="mini"
+            fab:fab_title="@string/addDrink" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionItem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:onClick="fabFood"
+            android:text="@string/addFood"
+            app:fab_colorNormal="#7accc9"
+            app:fab_icon="@drawable/food"
+            app:fab_title="@string/addFood"
+
+            fab:fab_label="hallo"
+            fab:fab_size="mini" />
+
+
+         </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>
